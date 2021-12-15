@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="766.0" prefWidth="1360.0" stylesheets="@../../resources/css/pharmacy-pos.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.appHome.LoginController">
+   <children>
+      <Rectangle fx:id="rectangleOne" arcHeight="10.0" arcWidth="10.0" fill="#ffffff00" height="736.0" layoutX="56.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" width="1330.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="15.0" />
+      <Rectangle fx:id="rectangleTwo" arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="572.0" stroke="BLACK" strokeType="INSIDE" width="807.0" AnchorPane.bottomAnchor="92.0" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="283.0" AnchorPane.topAnchor="102.0" />
+      <Rectangle fx:id="rectangleThree" arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="554.0" stroke="BLACK" strokeType="INSIDE" width="791.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="278.0" AnchorPane.rightAnchor="291.0" AnchorPane.topAnchor="112.0" />
+      <TextField fx:id="emailTextField" layoutX="610.0" layoutY="463.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="45.0" prefWidth="394.0" promptText="ENTER YOU EMAIL" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="477.0" AnchorPane.rightAnchor="489.0" AnchorPane.topAnchor="405.0" />
+      <TextField fx:id="passwordTextField" layoutX="484.0" layoutY="525.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="45.0" prefWidth="394.0" promptText="ENTER YOUR PASSWORD" AnchorPane.bottomAnchor="255.0" AnchorPane.leftAnchor="477.0" AnchorPane.rightAnchor="489.0" AnchorPane.topAnchor="466.0" />
+      <Button fx:id="loginButton" layoutX="535.0" layoutY="575.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="190.6" text="LOGIN" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="481.0" AnchorPane.rightAnchor="688.0" AnchorPane.topAnchor="537.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="clearButton" alignment="CENTER" layoutX="718.0" layoutY="537.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="190.6" text="CLEAR" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="684.0" AnchorPane.rightAnchor="485.0" AnchorPane.topAnchor="537.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="mainLabel" alignment="CENTER" layoutX="483.0" layoutY="273.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="498.0" text="MEDICARE PHARMACY - KADAWATHA" AnchorPane.bottomAnchor="404.0" AnchorPane.leftAnchor="424.0" AnchorPane.rightAnchor="438.0" AnchorPane.topAnchor="307.0">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="363.0" text="XENON POS SYSTEMS" AnchorPane.bottomAnchor="377.0" AnchorPane.leftAnchor="497.0" AnchorPane.rightAnchor="500.0" AnchorPane.topAnchor="361.0" fx:id="xenonLabel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="serverLabel" layoutX="573.0" layoutY="610.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="42.0" prefWidth="119.0" text="Server Status :" AnchorPane.bottomAnchor="114.0" AnchorPane.leftAnchor="573.0" AnchorPane.rightAnchor="668.0" AnchorPane.topAnchor="610.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="serverLabel1" layoutX="715.0" layoutY="610.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="42.0" prefWidth="68.0" text="ON" AnchorPane.bottomAnchor="114.0" AnchorPane.topAnchor="610.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="663.0" layoutY="199.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="102.0" prefWidth="302.0" AnchorPane.bottomAnchor="480.0" AnchorPane.leftAnchor="522.0" AnchorPane.rightAnchor="536.0" AnchorPane.topAnchor="184.0" fx:id="xenonLogo" />
+      <Button fx:id="closeButton" layoutX="977.0" layoutY="153.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#closeStage" prefHeight="20.0" prefWidth="20.0" AnchorPane.bottomAnchor="599.0" AnchorPane.leftAnchor="1014.0" AnchorPane.rightAnchor="326.0" AnchorPane.topAnchor="147.0" />
+   </children>
+</AnchorPane>
